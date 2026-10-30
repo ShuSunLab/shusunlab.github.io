@@ -12,3 +12,6 @@
 
 /* Keep the complete research figure visible, including on hover. */
 .research-cover{background:#fff}.research-cover img{object-fit:contain}.category-card:hover .research-cover img{transform:none}
+
+/* Preserve the complete author-provided HoloChanTwin screenshot. */
+.holo-cover{background:#0f192e}.holo-cover img{object-fit:contain}.category-card:hover .holo-cover img{transform:none}.feature-image.holo-cover{height:auto;min-height:0;aspect-ratio:3020/1648}
