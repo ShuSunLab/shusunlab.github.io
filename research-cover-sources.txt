@@ -1,10 +1,10 @@
-ShuSunLab research cover - version 11
+ShuSunLab research cover - version 12
 
-Website asset: cover-research-v11.png
+Website asset: cover-research-v12.png
 Dimensions: 4200 x 2415 (40:23, matching the website cover slot) pixels.
 
 Revision
-Added the original compact overall-framework diagram, Fig. 1(a), beneath the InvDiff-CGM channel-map examples. This introduces a workflow diagram with a different appearance from the maps, without restoring the detailed sampler, U-Net, or injector panels. The existing map examples remain unchanged and move upward to balance the two figures. Removed all twelve decorative vertical bars before subsection headings and aligned the headings with their figures. The two-by-two module layout, English headings, 40:23 cover ratio, and matching low-altitude-to-maritime ordering remain. All other v10 figure assets and positions are unchanged. PanoLAMP and the former UAV/ISAC group remain excluded. No banner, added caption, citation marker, or footer is present.
+Changed only the editorial subtitle "Land-to-ship measurement campaign" to "Maritime channel measurements". All original scientific figures, other headings, positions, colors, and the cover dimensions are retained from version 11.
 
 Scientific integrity
 The cover contains 32 original figure excerpts and one original shared legend from nine papers. Figures were extracted from their public PDF versions and embedded without changes to scientific content. Original axes, legends, labels, annotations, colors, and numerical values are retained. All figures are proportionally sized. They represent distinct studies rather than a demonstrated common experimental pipeline.
