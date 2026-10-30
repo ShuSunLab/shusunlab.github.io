@@ -1,0 +1,120 @@
+ShuSunLab research cover - version 11
+
+Website asset: cover-research-v11.png
+Dimensions: 4200 x 2415 (40:23, matching the website cover slot) pixels.
+
+Revision
+Added the original compact overall-framework diagram, Fig. 1(a), beneath the InvDiff-CGM channel-map examples. This introduces a workflow diagram with a different appearance from the maps, without restoring the detailed sampler, U-Net, or injector panels. The existing map examples remain unchanged and move upward to balance the two figures. Removed all twelve decorative vertical bars before subsection headings and aligned the headings with their figures. The two-by-two module layout, English headings, 40:23 cover ratio, and matching low-altitude-to-maritime ordering remain. All other v10 figure assets and positions are unchanged. PanoLAMP and the former UAV/ISAC group remain excluded. No banner, added caption, citation marker, or footer is present.
+
+Scientific integrity
+The cover contains 32 original figure excerpts and one original shared legend from nine papers. Figures were extracted from their public PDF versions and embedded without changes to scientific content. Original axes, legends, labels, annotations, colors, and numerical values are retained. All figures are proportionally sized. They represent distinct studies rather than a demonstrated common experimental pipeline.
+
+Invertible diffusion for channel maps
+Ruifeng Gao, Sen Li, Jue Wang, Qiuming Zhu, and Shu Sun.
+Invertible Diffusion for Low-Memory Channel Gain Map Construction in Wireless Communication Networks.
+arXiv:2604.11255v1, 13 April 2026.
+https://arxiv.org/abs/2604.11255v1
+https://arxiv.org/pdf/2604.11255v1
+- Fig. 1(a), PDF page 2: original overall framework, showing sparse measurements and environmental prior, initialization, invertible iterative sampling, and reconstructed output. Only this complete subpanel is selected; Fig. 1(b-d) are omitted. It is a proportional, unmodified excerpt of the paper figure.
+- Fig. 2, PDF page 4: selected lower-right InvDiff-CGM and ground-truth columns for both original test scenes. The original method labels, red detail boxes, and 75-100 dB color scale are retained. Other baseline methods from the full comparison are omitted for cover clarity. This selected illustration makes no new quantitative claim. The original full comparison remains in the cited paper.
+License displayed by arXiv: perpetual non-exclusive distribution license. This is not a general Creative Commons reuse license. Source-author/publisher rights are retained.
+
+HMIMO channel modeling and degrees of freedom
+Hangsong Yan, Hong Yang, and Shu Sun.
+Computational and Effective Degrees of Freedom for Spatially Stationary HMIMO Channel Modeling.
+arXiv:2607.23487v1, 26 July 2026.
+https://arxiv.org/abs/2607.23487v1
+https://arxiv.org/pdf/2607.23487v1
+- Fig. 4, PDF page 7: effective wavenumber domain and the corresponding NGLQ sampling area under restricted elevation and azimuth support.
+- Fig. 6, PDF page 9: eigenvalue distributions from NGLQ and the asymptotic eDoF expansion for different rectangular-aperture sizes. The complete legend, curves, and original aperture annotations are retained.
+License: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+Changes: extraction from the PDF page, proportional resizing, and inclusion in a new editorial layout; no scientific alterations.
+
+Robust multi-stream satellite MIMO
+Hangsong Yan, Alexei Ashikhmin, Hong Yang, Bin Song, and Shu Sun.
+Robust Multi-Stream Massive MIMO Satellite Systems Based on Statistical CSI.
+arXiv:2604.08925v2, 6 May 2026.
+https://arxiv.org/abs/2604.08925v2
+https://arxiv.org/pdf/2604.08925v2
+- Fig. 1, PDF page 11: performance comparison at different transmit-power levels, with S = 4, Mx = My = 6, K = 10, Rician factor 10 dB, and phase-error variance 0.05. Every original scheme remains visible.
+- Fig. 6, PDF page 12: effect of phase-error variance on the compared algorithms, with S = 4, Mx = 18, My = 6, K = 30, P = 15 dBW, and Rician factor 10 dB.
+The paper treats the iCSI curves, which assume known channel and impairment information, as a performance upper bound rather than a practically matched benchmark for sCSI. The cover makes no new quantitative performance claim.
+License: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+Changes: extraction from the PDF page, proportional resizing, and inclusion in a new editorial layout; no scientific alterations.
+
+Maritime channel measurements and modeling
+Shu Sun, Yulu Guo, Meixia Tao, Wei Feng, Jun Chen, Ruifeng Gao, Ye Li, Jue Wang, and Theodore S. Rappaport.
+Modeling and Analysis of Land-to-Ship Maritime Wireless Channels at 5.8 GHz.
+arXiv:2507.15969v2, 17 December 2025.
+https://arxiv.org/abs/2507.15969v2
+https://arxiv.org/pdf/2507.15969v2
+- Figs. 2(b), 2(c), and 3, PDF page 3: receiver, open-sea campaign, and route map.
+- Fig. 4, page 4: measured power-delay profiles.
+- Figs. 5(a) and 5(b), page 6: measured path loss and model comparisons for both days.
+- Fig. 6, page 7: SWIFT fading mechanism, not drawn to scale.
+- Fig. 7, page 8: measured and simulated fading distributions.
+- Figs. 11 and 12, page 12: RMS delay-spread CDFs and the complete three-panel multipath-power comparison.
+License displayed by arXiv: perpetual non-exclusive distribution license; author/publisher rights retained.
+
+Near-field boundary map
+Shu Sun, Renwang Li, Chong Han, Xingchen Liu, Liuxun Xue, and Meixia Tao.
+How to Differentiate between Near Field and Far Field: Revisiting the Rayleigh Distance.
+arXiv:2309.13238v2, 8 October 2024.
+https://arxiv.org/abs/2309.13238v2
+https://arxiv.org/pdf/2309.13238v2
+- Fig. 3, PDF page 5: EDoF-based boundary distance versus array orientation and vertical URA length.
+License: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+Changes: extraction, proportional sizing, and editorial layout only. This near-field boundary map and the adjacent HMIMO plots are from separate studies.
+
+VoxelRF
+Zihang Zeng, Shu Sun, Meixia Tao, Yin Xu, and Xianghao Yu.
+VoxelRF: Voxelized Radiance Field for Fast Wireless Channel Modeling.
+arXiv:2507.09987v2, 12 December 2025.
+https://arxiv.org/abs/2507.09987v2
+https://arxiv.org/pdf/2507.09987v2
+- Fig. 1(b), PDF page 3: voxelized representation and shallow MLP.
+- Figs. 2 and 3, page 4: complete spatial-spectrum and SSIM comparisons.
+License displayed by arXiv: perpetual non-exclusive distribution license; author/publisher rights retained.
+
+Low-altitude ISAC mapping
+Meihui Liu, Shu Sun, Ruifeng Gao, Jianhua Zhang, and Meixia Tao.
+Fusion of Monostatic and Bistatic Sensing for ISAC-Enabled Low-Altitude Environment Mapping.
+arXiv:2603.08556v1, 9 March 2026.
+https://arxiv.org/abs/2603.08556v1
+https://arxiv.org/pdf/2603.08556v1
+- Fig. 1, PDF page 3: original sensing scenario.
+- Fig. 3, page 11: paired 3D/2D scene configuration.
+- Figs. 4(a) and 4(f), page 12, with original shared legend: selected reconstruction examples; not the complete seven-panel comparison.
+License displayed by arXiv: perpetual non-exclusive distribution license; author/publisher rights retained.
+
+Low-altitude channel measurements
+Yulu Guo, Tongjia Zhang, Xiangwen Gu, Shu Sun, Meixia Tao, and Ruifeng Gao.
+Directional Measurements and Analysis for FR3 Low-Altitude Channels in a Campus Environment.
+arXiv:2507.11846v1, 16 July 2025.
+https://arxiv.org/abs/2507.11846v1
+https://arxiv.org/pdf/2507.11846v1
+- Figs. 1 and 2, PDF page 2: campus measurement map and PDPs.
+- Figs. 3(a) and 3(b), page 3: complete measured path-loss/model comparisons at both receivers.
+These physical measurements used rooftop transmitters to emulate low-altitude positions; the sounder was not carried by an airborne UAV.
+License displayed by arXiv: perpetual non-exclusive distribution license; author/publisher rights retained.
+
+Multi-satellite cooperative networks
+Xuan Zhang, Shu Sun, Meixia Tao, Qin Huang, and Xiaohu Tang.
+Multi-Satellite Cooperative Networks: Joint Hybrid Beamforming and User Scheduling Design.
+arXiv:2310.08095v2, 28 December 2023.
+https://arxiv.org/abs/2310.08095v2
+https://arxiv.org/pdf/2310.08095v2
+- Fig. 1, PDF page 3: cooperative system architecture.
+- Fig. 2, page 4: onboard hybrid beamforming architecture.
+- Fig. 5, page 9: 48/6/1 constellation coverage at 30-degree inclination.
+- Fig. 8, page 11: total and mean spectral efficiency at 45-degree inclination; both plots and all compared schemes retained.
+The coverage and efficiency illustrations use different inclinations, as in the paper. They are separate examples, not one simulation configuration.
+License displayed by arXiv: perpetual non-exclusive distribution license; author/publisher rights retained.
+
+Reuse and display
+The excerpts are supplied for the requested author/lab research cover. They are not offered as independently licensed stock imagery. Keep this attribution record with shared/exported copies, particularly for the CC BY figures. The SVG embeds all source images without external dependencies. Numerical details should be read in the full-resolution export or original papers.
+
+This attribution record accompanies the Research & Publications homepage cover.

@@ -9,3 +9,6 @@
 
 /* Preserve the complete author-supplied PanoLAMP research figure. */
 .panolamp-cover{background:#fff}.panolamp-cover img{object-fit:contain}.category-card:hover .panolamp-cover img{transform:none}.feature-image.panolamp-cover{height:auto;min-height:0;aspect-ratio:1445/1071}
+
+/* Keep the complete research figure visible, including on hover. */
+.research-cover{background:#fff}.research-cover img{object-fit:contain}.category-card:hover .research-cover img{transform:none}
