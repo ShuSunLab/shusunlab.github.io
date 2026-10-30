@@ -31,7 +31,7 @@
   if (!ready) return;
   const raw = location.pathname.replace(/\/$/, '').split('/').pop() || 'index';
   const page = '/' + (raw.endsWith('.html') ? raw : raw + '.html');
-  if (!['/index.html','/platforms.html','/datasets.html','/publications.html','/tutorials.html','/privacy.html'].includes(page)) return;
+  if (!['/index.html','/platforms.html','/datasets.html','/panolamp.html','/misail.html','/publications.html','/tutorials.html','/privacy.html'].includes(page)) return;
   let session;
   function send(kind, resource) {
     if (blocked()) return false;

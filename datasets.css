@@ -1,0 +1,16 @@
+.dataset-catalog{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-bottom:50px}
+.dataset-card{border:1px solid var(--border);border-radius:18px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.dataset-card-visual{display:flex;aspect-ratio:1.75;overflow:hidden;background:#fff;border-bottom:1px solid #e6eae7}
+.dataset-card-visual img{width:100%;height:100%;object-fit:contain}
+.dataset-card-copy{padding:26px;flex:1;display:flex;flex-direction:column;align-items:flex-start}
+.dataset-card-copy h2{font-size:30px;margin:14px 0 12px}.dataset-card-copy p{font-size:15px;line-height:1.8;margin-bottom:22px}
+.dataset-card-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:auto}
+.dataset-text-link{font-size:12px;color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.dataset-placeholder{flex-direction:column;align-items:center;justify-content:center;gap:14px;background:linear-gradient(135deg,#eff4f2,#e5eeee);color:#2f6264}
+.dataset-wordmark{font-size:clamp(38px,6vw,74px);font-weight:700;line-height:1.1;letter-spacing:-2px}
+.dataset-placeholder-note{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:#68817b}
+.dataset-coming-soon{background:#f0f1ef;color:#69736e}
+.dataset-holding{display:grid;grid-template-columns:1fr 1.3fr;gap:50px;align-items:center;margin-bottom:55px;padding:48px;border:1px solid var(--border);border-radius:18px;background:#fff}
+.dataset-placeholder-mark{min-height:240px;display:grid;place-items:center;background:linear-gradient(135deg,#eff4f2,#e5eeee);border-radius:12px;font-size:clamp(38px,5vw,68px);font-weight:700;letter-spacing:-2px;color:#2f6264}
+.dataset-holding-copy h2{font-size:28px;margin:17px 0}.dataset-holding-copy p{font-size:15px;line-height:1.8}.dataset-holding-copy p.small{font-size:12px}.dataset-holding-copy .button{margin-top:24px}
+@media(max-width:760px){.dataset-catalog{grid-template-columns:1fr;gap:22px;padding-bottom:35px}.dataset-card-copy{padding:22px}.dataset-card-copy h2{font-size:28px}.dataset-holding{grid-template-columns:1fr;gap:24px;padding:22px;margin-bottom:35px}.dataset-placeholder-mark{min-height:180px}.dataset-holding-copy h2{font-size:25px}}
