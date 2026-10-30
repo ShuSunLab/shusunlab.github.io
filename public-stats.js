@@ -6,6 +6,7 @@
   const unavailable = () => {
     counters.forEach(node => { node.textContent = '—'; });
     status.textContent = 'Statistics temporarily unavailable.';
+    status.hidden = false;
   };
   let endpoint;
   try {
@@ -31,8 +32,7 @@
       };
       if (!counters.every(node => count(values[node.dataset.publicStat]))) throw new Error();
       counters.forEach(node => { node.textContent = values[node.dataset.publicStat].toLocaleString('en-US'); });
-      status.textContent = /^\d{4}-\d{2}-\d{2}$/.test(data.since)
-        ? `Recorded since ${data.since} · Updates may take a few minutes.`
-        : 'No recorded activity yet · Updates may take a few minutes.';
+      status.textContent = '';
+      status.hidden = true;
     }).catch(unavailable).finally(() => clearTimeout(timeout));
 })();
