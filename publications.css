@@ -1,0 +1,14 @@
+/* Clickable publication rows, scoped to the publications page. */
+.paper-link { padding-inline: 16px; margin-inline: -16px; border-radius: 8px; transition: background-color .16s ease; }
+.paper-link:hover, .paper-link:focus-visible { background: #f0f5f3; }
+.paper-link:hover h3, .paper-link:focus-visible h3 { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.paper-details { min-width: 0; }
+.paper-link .paper-xplore { display: inline-flex; align-items: center; gap: 7px; margin-top: 13px; color: var(--accent); font-size: 12px; font-weight: 600; }
+.paper-link .paper-xplore span { font-size: 15px; }
+.paper-link .paper-authors { max-width: 1100px; }
+@media (max-width: 760px) {
+  .paper-link { grid-template-columns: 1fr; gap: 8px; padding: 22px 10px; margin-inline: -10px; }
+  .paper-link h3 { overflow-wrap: anywhere; }
+  .paper-link .paper-year { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .paper-link { transition: none; } }
